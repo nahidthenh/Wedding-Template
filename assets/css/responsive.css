@@ -1,0 +1,486 @@
+/* Laptop-Device 1024px  */
+@media only screen and (width: 1024px){
+	
+}
+/* Tablet-Device 768px  */
+@media only screen and (width: 768px){
+	
+}
+/* Mobile L 425px Device */
+@media only screen and (max-width: 425px){
+	.menu-btn.btn {
+		margin-left: 0px;
+		padding: 8px 55px;
+		margin-top: 12px;
+	}
+	.hero-area {
+		background: url(../img/hero3.jpg);
+		background-size: cover;
+	}
+	.hero-area-content h1 {
+		font-size: 50px;
+		color:#fff;
+	}
+	.hero-area-content h2 {
+		font-size: 55px;
+		color:#fff;
+	}
+	.hero-area-content p {
+		font-size: 30px;
+		color:#fff;
+		letter-spacing: 2px;
+		margin-top: 25px;
+	}	
+	.copule-area img {
+		display: block;
+		margin: 0 auto;
+	}
+	.hero-area-content {
+		padding-top: 0px;
+	}
+	ul#example {
+		margin-top: 54px;
+	}
+	.copule-area {
+		padding: 20px 0px;
+	}
+	.copule-welcome-content h3 {
+		font-size: 86px;
+		margin-top: -30px;
+	}
+	.copule-welcome-content p {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.copule-welcome-content h6 {
+		font-size: 23px;
+		margin-bottom: -24px;
+	}
+	.event-title h3 {
+		font-size: 41px;
+	}
+	.event-area {
+		padding: 20px 0px;
+	}
+	.event-box {
+		margin-top: 30px;
+	}
+	.event-time img {
+		padding: 15px 0px;
+	}
+	.loveline-title h3 {
+		font-size: 50px;    
+	}
+	.loveline-title {
+		padding: 26px 0px;
+	}
+	.carousel-content h6 {
+		color: #8f8f8f;
+		margin-top: 20px;
+	}
+	.callToAction-area {
+		padding: 20px 0px;
+	}
+	.cta-right-side h1 {
+		
+		font-size: 30px;
+	}
+	.cta-right-side h2 {
+		font-size: 42px;
+		margin-bottom: 25px;
+		
+	}
+	.photo-galery {
+		padding: 20px 0px;
+	}
+	.photo-galery-title h3 {
+		font-size: 34px;
+	}
+	.family h3 {
+		font-weight: 500;
+		font-size: 26px;
+	}
+	.parent {
+		margin-bottom: -58px;
+	}
+	.parent img {
+		height: 100px;
+		width: 100px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.parent h4 {
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 0px;
+	}
+	.family-icon a i {
+		font-size: 15px;
+	}
+	.other-family {
+		margin-top: 0px;
+		margin-bottom: -60px;
+	}
+	.footer-area h6 {
+		
+		font-size: 23px;
+	}
+	.footer-area h3 {
+		font-size: 43px;
+	}
+	.footer-area {
+		padding: 30px 0px;
+	}
+	
+	#scrollUp {
+		bottom: 30px;
+		right: 20px;
+	}	
+	
+	
+	/* Page  */
+	
+	/* Wedding Page */
+	.page-baner {
+		padding: 40px 0px;
+	}
+	.page-title h6 {
+		font-size: 20px;
+		margin: 10px 0px;
+	}
+	.page-title h3 {
+		font-size: 44px;
+		margin: 10px 0px;
+	}
+	.ourloveline-area {
+		padding: 20px 0px;
+	}
+	.guestbook-title {
+		padding-top: 20px;
+		font-size: 33px;
+	}
+	.formarea {
+		padding: 30px 20px;
+		margin: 30px 0px;
+		font-size: 18px;
+	}
+}
+/* Mobile M 375px Device */
+@media only screen and (max-width: 375px){
+	.menu-btn.btn {
+		margin-left: 0px;
+		padding: 8px 55px;
+		margin-top: 12px;
+	}
+	.hero-area {
+		background: url(../img/hero3.jpg);
+		background-size: cover;
+	}
+	.hero-area-content h1 {
+		font-size: 35px;
+		color:#fff;
+	}
+	.hero-area-content h2 {
+		font-size: 45px;
+		color:#fff;
+	}
+	.hero-area-content p {
+		font-size: 27px;
+		color:#fff;
+		letter-spacing: 2px;
+		margin-top: 25px;
+	}	
+	.hero-area-content {
+		padding-top: 0px;
+	}
+	ul#example {
+		margin-top: 54px;
+	}
+	.copule-area {
+		padding: 20px 0px;
+	}
+	.copule-area img {
+		display: block;
+		margin: 0 auto;
+	}
+	.copule-welcome-content h3 {
+		font-size: 86px;
+		margin-top: -30px;
+	}
+	.copule-welcome-content p {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.copule-welcome-content h6 {
+		font-size: 23px;
+		margin-bottom: -24px;
+	}
+	.event-title h3 {
+		font-size: 41px;
+	}
+	.event-area {
+		padding: 20px 0px;
+	}
+	.event-box {
+		margin-top: 30px;
+	}
+	.event-time img {
+		padding: 15px 0px;
+	}
+	.loveline-title h3 {
+		font-size: 50px;    
+	}
+	.loveline-title {
+		padding: 26px 0px;
+	}
+	.carousel-content h6 {
+		color: #8f8f8f;
+		margin-top: 20px;
+	}
+	.callToAction-area {
+		padding: 20px 0px;
+	}
+	.cta-right-side h1 {
+		
+		font-size: 30px;
+	}
+	.cta-right-side h2 {
+		font-size: 42px;
+		margin-bottom: 25px;
+		
+	}
+	.photo-galery {
+		padding: 20px 0px;
+	}
+	.photo-galery-title h3 {
+		font-size: 34px;
+	}
+	.family h3 {
+		font-weight: 500;
+		font-size: 30px;
+	}
+	.parent {
+		margin-bottom: -58px;
+	}
+	.parent img {
+		height: 100px;
+		width: 100px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.parent h4 {
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 0px;
+	}
+	.family-icon a i {
+		font-size: 15px;
+	}
+	.other-family {
+		margin-top: 0px;
+		margin-bottom: -60px;
+	}
+	.footer-area h6 {
+		
+		font-size: 23px;
+	}
+	.footer-area h3 {
+		font-size: 43px;
+	}
+	.footer-area {
+		padding: 30px 0px;
+	}
+	
+	#scrollUp {
+		bottom: 30px;
+		right: 20px;
+	}	
+	
+	
+	/* Page  */
+	
+	/* Wedding Page */
+	.page-baner {
+		padding: 40px 0px;
+	}
+	.page-title h6 {
+		font-size: 20px;
+		margin: 10px 0px;
+	}
+	.page-title h3 {
+		font-size: 44px;
+		margin: 10px 0px;
+	}
+	.ourloveline-area {
+		padding: 20px 0px;
+	}
+	.guestbook-title {
+		padding-top: 20px;
+		font-size: 33px;
+	}
+	.formarea {
+		padding: 30px 20px;
+		margin: 30px 0px;
+		font-size: 18px;
+	}
+}
+/* Mobile Device 320px */
+@media only screen and (max-width: 320px){
+	.menu-btn.btn {
+		margin-left: 0px;
+		padding: 8px 55px;
+		margin-top: 12px;
+	}
+	.hero-area {
+		background: url(../img/hero3.jpg);
+		background-size: cover;
+	}
+	.hero-area-content h1 {
+		font-size: 35px;
+		color:#fff;
+	}
+	.hero-area-content h2 {
+		font-size: 45px;
+		color:#fff;
+	}
+	.hero-area-content p {
+		font-size: 27px;
+		color:#fff;
+		letter-spacing: 2px;
+		margin-top: 25px;
+	}	
+	.hero-area-content {
+		padding-top: 0px;
+	}
+	ul#example {
+		margin-top: 54px;
+	}
+	.copule-area {
+		padding: 20px 0px;
+	}
+	.copule-area img {
+		display: block;
+		margin: 0 auto;
+	}
+	.copule-welcome-content h3 {
+		font-size: 86px;
+		margin-top: -30px;
+	}
+	.copule-welcome-content p {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.copule-welcome-content h6 {
+		font-size: 23px;
+		margin-bottom: -24px;
+	}
+	.event-title h3 {
+		font-size: 41px;
+	}
+	.event-area {
+		padding: 20px 0px;
+	}
+	.event-box {
+		margin-top: 30px;
+	}
+	.event-time img {
+		padding: 15px 0px;
+	}
+	.loveline-title h3 {
+		font-size: 50px;    
+	}
+	.loveline-title {
+		padding: 26px 0px;
+	}
+	.carousel-content h6 {
+		color: #8f8f8f;
+		margin-top: 20px;
+	}
+	.callToAction-area {
+		padding: 20px 0px;
+	}
+	.cta-right-side h1 {
+		
+		font-size: 30px;
+	}
+	.cta-right-side h2 {
+		font-size: 42px;
+		margin-bottom: 25px;
+		
+	}
+	.photo-galery {
+		padding: 20px 0px;
+	}
+	.photo-galery-title h3 {
+		font-size: 34px;
+	}
+	.family h3 {
+		font-weight: 500;
+		font-size: 26px;
+	}
+	.parent {
+		margin-bottom: -58px;
+	}
+	.parent img {
+		height: 100px;
+		width: 100px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.parent h4 {
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 0px;
+	}
+	.family-icon a i {
+		font-size: 15px;
+	}
+	.other-family {
+		margin-top: 0px;
+		margin-bottom: -60px;
+	}
+	.footer-area h6 {
+		
+		font-size: 23px;
+	}
+	.footer-area h3 {
+		font-size: 43px;
+	}
+	.footer-area {
+		padding: 30px 0px;
+	}
+	
+	#scrollUp {
+		bottom: 30px;
+		right: 20px;
+	}	
+	
+	
+	/* Page  */
+	
+	/* Wedding Page */
+	.page-baner {
+		padding: 40px 0px;
+	}
+	.page-title h6 {
+		font-size: 20px;
+		margin: 10px 0px;
+	}
+	.page-title h3 {
+		font-size: 44px;
+		margin: 10px 0px;
+	}
+	.ourloveline-area {
+		padding: 20px 0px;
+	}
+	.guestbook-title {
+		padding-top: 20px;
+		font-size: 33px;
+	}
+	.formarea {
+		padding: 30px 20px;
+		margin: 30px 0px;
+		font-size: 18px;
+	}
+	
+}

@@ -1,0 +1,621 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+	
+	Project:    Project Name
+	Version:    1.0
+	Last change:    24/03/17 [fixed Float bug, vf]
+	Author Name: Author Name
+	Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+	[Table of contents]
+	
+	1. Body
+	2.
+-------------------------------------------------------------------*/
+
+/*
+	==========================================
+    Reset Css
+	==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Pre Loder */
+
+
+/* Pre Loder END*/
+
+
+/* Header Area  */
+
+/* NavBar Area */
+.top-menu {
+	padding: 10px 0px;
+	
+}
+.navbar-toggler-icon {
+	color: #000;
+	margin-top: 18px;
+}
+.nav-item a {
+	color: #2c2c2c !important;
+	font-family: 'Athiti', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+.nav-link.active {
+	color: #fc5a61 !important;
+}
+#collapsibleNavbar {
+	margin-top: 15px;
+}
+.menu-btn.btn {
+	background: #fc5a61;
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Athiti', sans-serif;
+	text-transform: uppercase;
+	margin-left: 180px;
+	border-radius: 3px;
+	padding: 8px 20px;
+}
+/* Navbar area END */
+
+/* hero-area */
+.hero-area{
+	background:url('../img/hero1.jpg');
+	background-size:cover;
+	background-position:center;
+	/* height:90vh; */
+}
+.hero-area-content h1 {
+	font-family: 'Montez', cursive;
+	font-weight:400;
+	color:#444444;
+	font-size:70px;
+}
+.hero-area-content h1 span{
+	font-size:110px;
+	color:#fc5a61;
+	font-weight:normal
+}
+.hero-area-content h2 {
+	font-family: 'Athiti', sans-serif;
+	font-weight:700;
+	color:#444444;
+	font-size:70px;
+	margin-top: -25px;
+}
+.hero-area-content p{
+	font-size:20px;
+	color:#444444;
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+	letter-spacing: 5px;
+	margin-top:10px;
+}
+.hero-area-content {
+	padding-top: 60px;
+}
+
+/* CountDown Wedding */
+
+ul#example {
+	background-image: linear-gradient(to right, white,#eae1e1,white);
+	border-radius: 8px 8px 0px 0px;
+	color: #000;
+	list-style: none;
+	margin-top: 140px;
+	padding: 10px 0px;
+	display: block;
+	text-align: center;
+}
+
+ul#example li { display: inline-block; }
+
+ul#example li span {
+	font-size: 36px;
+	font-family: 'Athiti', sans-serif;
+	font-weight: 700;
+	margin: 0px 30px;
+}
+
+
+ul#example li p {
+	font-family: 'Athiti', sans-serif;
+	font-weight:700;
+	color: #444444;
+	font-size: 21px;
+}
+/* hero-area END */
+/* Header Area END */
+
+
+/* copule ARea  */
+.copule-area {
+	padding: 80px 0px;
+}
+.copule-content{
+	text-align:center;
+}
+
+.copule-content h3 {
+	color: #fc5a61;
+	font-size: 38px;
+	margin-bottom: 10px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+}
+.copule-content p{
+	color:#262626;
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+	font-size:16px;
+}
+
+.copule-welcome-content {
+	text-align: center;
+	padding: 50px 0px;
+}
+.copule-welcome-content h3 {
+	font-family: 'Montez', cursive;
+	font-weight: 400;
+	color: #2e2e2e;
+	font-size: 100px;
+	margin-bottom:20px;
+}
+.copule-welcome-content p{
+	color:#2e2e2e;
+	font-size:15px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+}
+.copule-welcome-content h6{
+	color:#fc5a61;
+	font-size:26px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:700;
+}
+/* copule ARea END  */
+
+
+/* event-area */
+.event-area{
+	background:#000;
+	padding:80px 0px; 
+}
+.event-title{text-align:center;}
+.event-title h3{
+	font-family: 'Montez', cursive;
+	font-weight: 400;
+	font-size:70px;
+	color:#fff;
+}
+
+.event-box{text-align:center;background:#fff;padding-bottom:60px;margin-top:60px;}
+.event-box h4{
+	color:#fff;
+	font-family: 'Montez', cursive;
+	font-weight: 400;
+	font-size:40px;
+	background:#de5057;
+	padding:15px;
+	
+}
+.event-box p{
+	padding:20px;
+	font-size:16px;
+	color:#2e2e2e;
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+}
+.event-box img{padding-bottom:15px;}
+.event-box ul li{
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+	color:#2e2e2e;
+	font-size:16px;
+}
+.event-time img{padding:35px 0px;}
+/* event-area END */
+/* Our Loveline Area  */
+.loveline-title{text-align:center;}
+.loveline-title h3{
+	font-family: 'Montez', cursive;
+	font-weight: 400;
+	color:#272727;
+	font-size:69px;
+	margin-bottom:15px;
+}
+.loveline-title p{
+	color:#262626;
+	font-size:16px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+	margin-top:25px;
+	margin-bottom:45px;
+}
+
+.ourloveline-area {
+	padding: 80px 0px;
+}
+.carousel-content{
+	/* text-align:left !important; */
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+}
+.carousel-content img {
+	border-radius: 10px 0px 10px 0px;
+	height:350px;
+	width:350px;
+}
+.carousel-content img:hover {
+	opacity: .5;
+	cursor: pointer;
+	transition: .3s;
+}
+.carousel-content h6{
+	color:#8f8f8f;
+	margin-top:10px
+}
+.carousel-content h4{
+	font-size:23px;
+	color:#232323;
+	margin:5px 0px 10px 0px;
+	text-transform:uppercase
+}
+.carousel-content p{
+	font-size:16px;
+	color:#515151;
+}
+/* Our Loveline Area END */
+/* Call To Action Area */
+.callToAction-area{
+	background:#232323;
+	padding:80px 0px;
+}
+.cta-left-side{
+	border-right:1px solid #686767;
+	padding:10px
+}
+.cta-left-side p{
+	font-size:16px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+	color:#fff;
+	margin-top:25px;
+	margin-bottom:15px;
+}
+.cta-right-side h1 {
+	font-family: 'Montez', cursive;
+	font-weight:400;
+	color:#fff;
+	font-size:50px;
+}
+.cta-right-side h1 span{
+	font-size:110px;
+	color:#343434;
+	font-weight:normal
+}
+.cta-right-side h2 {
+	font-family: 'Athiti', sans-serif;
+	font-weight:700;
+	color:#fff;
+	font-size:60px;
+	margin-top: -25px;
+}
+/* Call To Action Area END */
+
+
+/* Photo Galery */
+.photo-galery{
+	padding:80px 0px;
+}
+.photo-galery-title{
+	text-align:center;
+}
+.photo-galery-title h3{
+	color:#272727;
+	font-family: 'Montez', cursive;
+	font-weight:400;
+	font-size:50px;
+	margin-bottom:20px;
+}
+.photo-galery-title p{
+	color:#262626;
+	font-size:16px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+	margin-top:20px;
+	margin-bottom:60px;
+}
+.gallery-img{
+	position:relative;
+	margin-bottom:25px;
+}
+.gallery-img img {
+	border-radius: 15px 0px 15px 0px;
+	width:100%;
+	cursor: pointer;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #c44b51;
+	border-radius: 15px 0px 15px 0px;
+	opacity:.9;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	transition: .3s ease;
+	cursor: pointer;
+}
+.gallery-img:hover .overlay {
+	transform: scale(1);
+}
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+/* Photo Galery END*/
+
+/* Family Photo Area */
+.family {
+	background: #d2527f;
+	padding: 80px 0px;
+}
+.family h3 {
+	text-align: center;
+	color: #fff;
+	font-family: 'Athiti', sans-serif;
+	font-weight:700;
+	font-size:58px;
+	margin-bottom:90px;
+}
+
+.family-photo-top img {
+	height: 250px;
+	width: 250px;
+	text-align: center !important;
+	border: 15px solid #fff;
+}
+.family-photo-top {
+	text-align: center;
+	margin-top: -126px;
+}
+
+
+.parent img {
+	height: 150px;
+	width: 150px;
+	text-align: center;
+}
+.parent {
+	text-align: center;
+}
+
+
+.parent h4 {
+	color: #313131;
+	font-size: 20px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:700;
+	margin-top:15px;
+	letter-spacing:2px;
+}
+.parent h6{
+	color:#de5057;
+	font-size:16px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:500;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+.parent p{
+	color:#969595;
+	font-size:13px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+	margin-bottom:25px;
+}
+
+.family-icon {
+	padding: 10px 0px;
+	margin-bottom:60px
+}
+.family-icon a i {
+	font-size: 20px;
+	color: #b1b1b1;
+	padding: 10px;
+}
+.family-icon a i:hover {
+	color: #fff;
+	background: #de5057;
+	padding: 10px;
+	transition:.5s;
+}
+.active.fab.fa-twitter {
+	color: #fff;
+	background: #de5057;
+	padding: 10px;
+}
+.other-family{
+	margin-top:80px;
+}
+.other-family img{
+	height:100px;
+	width:100px;
+}
+/* Family Photo Area END*/
+/* Footer Area */
+.footer-area {
+	background: #de5057;
+	padding: 80px 0px;
+	text-align: center;
+	color: #fff;
+}
+.footer-area h6{
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+	font-size:33px;
+}
+.footer-area h3{
+	font-family: 'Montez', cursive;
+	font-weight:400;
+	font-size:80px;
+}
+/* Footer Area END*/
+
+
+
+/* =========================================================================								PageCSS
+=========================================================================*/
+
+
+/* PhotoGaleryPage===== */
+.page-baner {
+	padding: 100px 0px;
+	background: url('../img/hero3.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.page-title h3{
+	font-family: 'Montez', cursive;
+	font-weight:400;
+	font-size:50px;
+	
+}
+.photo-galery button {
+	background: #de5057;
+	margin: 0px auto;
+	padding: 10px 35px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/* PhotoGaleryPage END===== */
+/* AboutPage ===== */
+.page-title h6{
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+	font-size:18px;
+	
+}
+/* AboutPage END===== */
+
+/* GuestBook  */
+.formarea {
+	border: 3px dotted #dfd0d1;
+	padding: 50px;
+	margin: 85px 0px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+	font-size:18px;
+	text-align:center
+}
+.formarea p{
+	padding-bottom:35px ;
+}
+.formarea button {
+	background: #de5057;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	margin-top: 35px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+}
+.guestbook-title {
+	text-align: center;
+	padding-top: 69px;
+	font-family: 'Montez', cursive;
+	font-weight:400;
+	font-size:50px
+}
+.formarea input {
+	margin-top: 20px;
+	padding: 12px 25px;
+}
+#text {
+	border-color: #de5057;
+}
+
+
+.event-area button {
+	background: #de5057;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	margin-top: 35px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+}
+/* GuestBook  END*/
+
+/* join The Event */
+.event-btn{
+	background: #de5057;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	margin-top: 35px;
+	font-family: 'Athiti', sans-serif;
+	font-weight:400;
+}
+/* join The EventEND */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
